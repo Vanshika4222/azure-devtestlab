@@ -5,8 +5,8 @@
     },
     "variables": {
         "resourceNamePrefix": "[take(uniqueString(resourceGroup().id), 3)]",
-        "hostingPlanName": "DotnetAppservice-sp",
-        "siteName": "DotnetAppservice"
+        "hostingPlanName": "4cv-4cvjxg-sp",
+        "siteName": "4cv-4cvjxg"
     },
     "resources": [
         {
