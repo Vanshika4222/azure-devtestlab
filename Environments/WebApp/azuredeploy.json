@@ -5,8 +5,8 @@
     },
     "variables": {
         "resourceNamePrefix": "[take(uniqueString(resourceGroup().id), 3)]",
-        "hostingPlanName": "[toLower(concat(variables('resourceNamePrefix'), '-', take(uniqueString(resourceGroup().id), 6), '-sp'))]",
-        "siteName": "[toLower(concat(variables('resourceNamePrefix'), '-', take(uniqueString(resourceGroup().id), 6)))]"
+        "hostingPlanName": "DotnetAppservice-sp",
+        "siteName": "DotnetAppservice"
     },
     "resources": [
         {
